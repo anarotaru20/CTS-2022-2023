@@ -1,0 +1,9 @@
+Sa se implementeze un builder pentru crearea unui obiect de tip Burger, avand campurile:
+- Tip de chifla
+- Carne
+- Sos
+- Legume
+- Condimente
+Builderul trebuie sa ofere metode pentru a seta fiecare camp in parte si trebuie sa ofere
+o metoda "build()" pentru a crea obiectul Burger cu valorile setate in campuri.
+Trebuie sa se asigure ca obiectul creat are toate campurile setate corect.
