@@ -1,12 +1,11 @@
-package clase;
+package Decorator;
 
-public abstract class SubscriptionDecorator implements Subscription{
+abstract class SubscriptionDecorator  implements Subscription{
+    //Decorator abstract
     protected Subscription subscription;
-
     public SubscriptionDecorator(Subscription subscription) {
-        this.subscription = subscription;
+        this.subscription=subscription;
     }
-
     @Override
     public String getDescription() {
         return subscription.getDescription();
